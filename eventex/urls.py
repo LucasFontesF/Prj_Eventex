@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from eventex.core.views import home
 
 urlpatterns = [
     # adicionar uma rota
     # Qdo o usuário acessar a raiz do site, delegue para a view home dentro de views core eventex
-    url(r'^$', 'eventex.core.views.home'),
+    url(r'^$', home),
     url(r'^admin/', admin.site.urls),
 ]
