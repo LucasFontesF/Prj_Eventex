@@ -27,6 +27,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
+#listar os hosts permitidos para acessar (tirar o problema da 'página amarela')
+#o ALLOWED_HOSTS é uma configuração da instância. Portanto devemos colocar o conteúdo no .env
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
 
 # Application definition
