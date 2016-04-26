@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # colocar a nossa app aqui para que o django consiga encontrar a app core e todos os seus recursos
     'eventex.core',
+    'eventex.subscriptions',
 ]
 
 MIDDLEWARE_CLASSES = [
