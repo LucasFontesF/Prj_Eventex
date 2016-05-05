@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/LucasFontesF/Prj_Eventex.svg?branch=master)](https://travis-ci.org/LucasFontesF/Prj_Eventex)
+[![Code Health](https://landscape.io/github/LucasFontesF/Prj_Eventex/master/landscape.svg?style=flat)](https://landscape.io/github/LucasFontesF/Prj_Eventex/master)
+
 ## Como desenvolver?
 
 1. Clone o repositório.
